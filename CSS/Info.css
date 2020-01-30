@@ -1,0 +1,22 @@
+body
+{
+    background-color: grey;
+
+}
+
+header
+{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+h1
+{
+    text-align: center;
+}
+
+img
+{
+    border: black;
+}

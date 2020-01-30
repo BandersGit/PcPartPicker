@@ -1,0 +1,39 @@
+body
+{
+    background-color: grey;
+
+}
+
+header
+{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+h1
+{
+    text-align: center;
+}
+
+p
+{
+    text-align: center;
+    font-size: 1.5em;
+    margin-left: 0em;
+    margin-right: 0em;
+    border-color: white;
+}
+
+.sideImg
+{
+    margin-left: 8em;
+    margin-top: 10em;
+}
+
+div
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border-color: white;
+}
