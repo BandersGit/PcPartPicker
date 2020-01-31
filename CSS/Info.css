@@ -1,7 +1,7 @@
 body
 {
-    background-color: grey;
-
+    background-color:#272727;
+    color:#eeede6;
 }
 
 header
@@ -11,12 +11,32 @@ header
     grid-template-columns: repeat(3, 1fr);
 }
 
+a
+{
+    color:#eeede6;
+    text-decoration: none;
+    font-family: 'Teko', sans-serif;
+}
+
 h1
 {
     text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
 }
 
 img
 {
-    border: black;
+    border: red;
+}
+
+div
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+section
+{
+    text-align: center;
 }
