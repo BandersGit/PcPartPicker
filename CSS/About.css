@@ -32,36 +32,28 @@ h1
     font-size: 5em;
 }
 
-img
-{
-    border-color: #3a0909;
-    border-style: solid;
-    border-width: 0.3em;
-    border-radius: 1em;
-    margin-top: 0em;
-}
-
-div
-{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-}
-
-section
+p
 {
     text-align: center;
-    margin-bottom: 2em;
+    font-size: 1.5em;
+    margin: 2em;
 }
 
-h2
+.ImgLeft
 {
-    margin-right: 5em;
-    margin-left: 5em;
-    margin-bottom: 0em;
-    border-style: solid;
-    border-radius: 1em;
-    border-color: #3a0909;
-    background-color: #eeede6;
-    color: #272727;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-left: 8em;
 }
 
+.ImgRight
+{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-right: 8em;
+}
+
+#ImgContainer
+{
+    margin-top: 5em;
+}
