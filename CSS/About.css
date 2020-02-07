@@ -44,6 +44,7 @@ p
     display: grid;
     grid-template-columns: 1fr 2fr;
     margin-left: 8em;
+    margin-bottom: 10em;
 }
 
 .ImgRight
@@ -51,6 +52,7 @@ p
     display: grid;
     grid-template-columns: 2fr 1fr;
     margin-right: 8em;
+    margin-bottom: 10em;
 }
 
 #ImgContainer
