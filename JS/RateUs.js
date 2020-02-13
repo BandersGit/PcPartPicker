@@ -1,0 +1,1 @@
+const q1answer = document.querySelectorAll("input[name='answer1']");
