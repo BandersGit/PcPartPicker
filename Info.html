@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="CSS/Info.css">
+    <script defer src="js/RateUs.js"> </script>
     
     <title>Info</title>
 </head>
@@ -107,23 +108,28 @@
             Please Take Yor Time To Rate Us :)!
         </p>
 
-        <section>
-            <button>
-                <input type="radio" name="rateUs" id="answer1" value="1">
-                <label for="answer1">Bad</label>
-            </button>
+        <form>
 
-            <input type="radio" name="rateUs" id="answer1" value="1">
-            <label for="answer1">Bad</label>
+            <fieldset>
+           
+                <input type="radio" name="answer1" id="answer1_1" value="1">
+                <label for="answer1_1">Bad</label>
+            
+                
+            
+                <input type="radio" name="answer1" id="answer1_2" value="2">
+                <label for="answer1_2">Good</label>
+                
+            
+            
+                <input type="radio" name="answer1" id="answer1_3" value="3">
+                <label for="answer1_3">Great</label>
+            </fieldset>
+        </form>
 
-            <input type="radio" name="rateUs" id="answer2" value="2">
-            <label for="answer2">Good</label>
+        <button class="resultButton">Submit</button>
 
-            <input type="radio" name="rateUs" id="answer3" value="3">
-            <label for="answer3">Great</label>
-
-
-        </section>
+        <section class="result"> </section>
     </footer>
 </body>
 </html>

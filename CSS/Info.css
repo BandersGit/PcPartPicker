@@ -70,3 +70,9 @@ footer
     text-align: center;
 }
 
+button
+{
+    border-style: none;
+    color: #eeede6;
+}
+
