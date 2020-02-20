@@ -2,41 +2,39 @@ const q1answer = document.querySelectorAll("input[name='answer1']");
 
 
 
-const resultButton = document.querySelector(".resultButton");
-resultButton.addEventListener("click", checkResult);
+const replyButton = document.querySelector(".replyButton");
+replyButton.addEventListener("click", checkReply);
 
-const result = document.querySelector(".result");
+const reply = document.querySelector(".reply");
 
-let character = ""
+let text = ""
 
-function checkResult()
+function checkReply()
 {
-    let pointsTotal = 0;
-    pointsTotal = pointsTotal + checkAnswer(q1answer);
-    console.log(pointsTotal)
+    let points = 0;
+    points = points + checkAnswer(q1answer);
+    console.log(points)
     
-    if (pointsTotal = 1) 
+    if (points === 1) 
     {
-       character = "Darth Vader"; 
+       text = "Aw man, we're sorry :("; 
+    }
+    else if (points === 2) 
+    {
+        text = "Thanks!";
+    }
+    else if (points === 3)
+    {
+        text = "Thank you so much!";
     }
 
-    else if (pointsTotal = 2) 
-    {
-        character = "Kylo Ren";
-    }
-
-    else if (pointsTotal = 3)
-    {
-        character = "Darth Sidius";
-    }
-
-    result.textContent = character;
+    reply.textContent = text;
 }
 
 
 function checkAnswer (q)
 {
-    let pointsTotal = 0;
+    let points = 0;
 
     for (let index = 0; index < q.length; index++) 
     {
@@ -44,12 +42,11 @@ function checkAnswer (q)
         
         if (inputElement.checked) 
         {
-            pointsTotal = pointsTotal + parseInt(inputElement.value)
+            points = points + parseInt(inputElement.value)
         }
 
     }
 
-    return pointsTotal;
+    return points;
 }
 
-//Fixa poängen

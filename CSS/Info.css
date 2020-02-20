@@ -72,7 +72,22 @@ footer
 
 button
 {
-    border-style: none;
-    color: #eeede6;
+    border-style: solid;
+    border-color: #3a0909;
+    color: #272727;
+    margin-top: 1em;
+    background-color: #eeede6;
+    border-radius: 1em;
 }
+
+fieldset
+{
+    border-style: none;
+}
+
+.reply
+{
+    margin-top: 1em;
+}
+
 
