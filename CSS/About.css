@@ -59,3 +59,28 @@ p
 {
     margin-top: 5em;
 }
+
+footer
+{
+    text-align: center;
+}
+
+button
+{
+    border-style: solid;
+    border-color: #460909;
+    color: #141414;
+    margin-top: 1em;
+    background-color: #eeede6;
+    border-radius: 1em;
+}
+
+fieldset
+{
+    border-style: none;
+}
+
+.reply
+{
+    margin-top: 1em;
+}
