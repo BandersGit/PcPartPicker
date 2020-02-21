@@ -11,7 +11,7 @@ header
     display: grid;
     font-size: 2em;
     grid-template-columns: repeat(3, 1fr);
-    border-bottom-color: #3a0909;
+    border-bottom-color: #570b0b;
     border-bottom-style: solid;
     border-radius: 1em;
     border-width: 0.05em;
@@ -68,7 +68,7 @@ footer
 button
 {
     border-style: solid;
-    border-color: #460909;
+    border-color: #570b0b;
     color: #141414;
     margin-top: 1em;
     background-color: #eeede6;
