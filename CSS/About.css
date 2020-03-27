@@ -29,36 +29,36 @@ h1
     text-align: center;
     font-weight: bold;
     margin: 2em;
-    font-size: 5em;
+    font-size: 3em;
 }
 
 p
 {
     text-align: center;
     font-size: 1.5em;
-    margin: 2em;
-    margin-top: 5em;
+    margin: 1em;
+    margin-top: 6em;
 }
 
 .ImgLeft
 {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    margin-left: 8em;
-    margin-bottom: 10em;
+    margin-left: 0em;
+    margin-bottom: 6em;
 }
 
 .ImgRight
 {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    margin-right: 8em;
-    margin-bottom: 10em;
+    margin-right: 0em;
+    margin-bottom: 6em;
 }
 
 #ImgContainer
 {
-    margin-top: 5em;
+    margin-top: 6em;
 }
 
 footer
@@ -84,4 +84,28 @@ fieldset
 .reply
 {
     margin-top: 1em;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px)
+{
+    body
+    {
+        background-color: darkgreen;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px)
+{
+    body
+    {
+        background-color: blue;
+    }
+}
+
+@media only screen and (min-width: 1281px)
+{
+    body
+    {
+        background-color: brown;
+    }
 }
